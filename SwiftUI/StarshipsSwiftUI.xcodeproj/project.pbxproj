@@ -13,6 +13,8 @@
 		D227388E23A29CC800459BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D227388D23A29CC800459BBE /* Assets.xcassets */; };
 		D227389123A29CC800459BBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D227389023A29CC800459BBE /* Preview Assets.xcassets */; };
 		D227389423A29CC800459BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D227389223A29CC800459BBE /* LaunchScreen.storyboard */; };
+		D227389F23A29CC900459BBE /* LabelATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227389E23A29CC900459BBE /* LabelATests.swift */; };
+		D22738AA23A29CC900459BBE /* LabelAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22738A923A29CC900459BBE /* LabelAUITests.swift */; };
 		D22738B923A29DE300459BBE /* StarWarsWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22738B823A29DE300459BBE /* StarWarsWebservice.swift */; };
 		D22738BD23A2A05C00459BBE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22738BC23A2A05C00459BBE /* Character.swift */; };
 		D22738BF23A2A06700459BBE /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22738BE23A2A06700459BBE /* Planet.swift */; };
@@ -48,7 +50,11 @@
 		D227389323A29CC800459BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D227389523A29CC800459BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D227389A23A29CC900459BBE /* StarshipsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarshipsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D227389E23A29CC900459BBE /* LabelATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelATests.swift; sourceTree = "<group>"; };
+		D22738A023A29CC900459BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D22738A523A29CC900459BBE /* StarshipsSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarshipsSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22738A923A29CC900459BBE /* LabelAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAUITests.swift; sourceTree = "<group>"; };
+		D22738AB23A29CC900459BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D22738B823A29DE300459BBE /* StarWarsWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsWebservice.swift; sourceTree = "<group>"; };
 		D22738BC23A2A05C00459BBE /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		D22738BE23A2A06700459BBE /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				D227388623A29CC500459BBE /* Starships */,
+				D227389D23A29CC900459BBE /* LabelATests */,
+				D22738A823A29CC900459BBE /* LabelAUITests */,
 				D227388523A29CC500459BBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +131,24 @@
 				D227389023A29CC800459BBE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D227389D23A29CC900459BBE /* LabelATests */ = {
+			isa = PBXGroup;
+			children = (
+				D227389E23A29CC900459BBE /* LabelATests.swift */,
+				D22738A023A29CC900459BBE /* Info.plist */,
+			);
+			path = LabelATests;
+			sourceTree = "<group>";
+		};
+		D22738A823A29CC900459BBE /* LabelAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D22738A923A29CC900459BBE /* LabelAUITests.swift */,
+				D22738AB23A29CC900459BBE /* Info.plist */,
+			);
+			path = LabelAUITests;
 			sourceTree = "<group>";
 		};
 		D22738B723A29DCE00459BBE /* Networking */ = {
@@ -299,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D227389F23A29CC900459BBE /* LabelATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22738AA23A29CC900459BBE /* LabelAUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
